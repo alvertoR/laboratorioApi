@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9;]*)$ api.php?variable=$1
